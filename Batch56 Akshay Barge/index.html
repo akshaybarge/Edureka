@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Search n Filter Page by Akshay Barge </title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+    <link rel="stylesheet" href="./Zomato.css">
+</head>
+<body>
+    <header>
+        <span class="logo_span">
+            <a href="./index.html" class="logo">e!</a>
+        </span>
+        <span class="login_createacc">
+            <a href="#" class="login">Login</a>
+            <a href="#" class="createacc">Create an account</a>
+        </span>
+    </header>
+    <main>
+        <section>
+            <div class="title_text">
+                Breakfast Places in Mumbai
+            </div>
+            <article class="filter_article">
+                <div id="filters">Filters</div>
+                <div class="sub">Select Location</div>
+                <div>
+                    <select class="searches">
+                        <option class="types" default>Select location</option>
+                        <option>Sambhaji Nagar</option>
+                        <option>Pune</option>
+                        <option>Mumbai</option>
+                        <option>Banglore</option>
+                        <option>Kolkata</option>
+                      </select>
+                </div>
+                <div class="sub">Cuisine</div>
+                <div class="checkbox_radio">
+                    <label for="north">
+                        <input type="checkbox" value="North Indian" name="North Indian" id="north" />North Indian
+                    </label><br>
+                    <label for="south">
+                        <input type="checkbox" value="South Indian" name="South Indian" id="south" checked/>South Indian
+                    </label><br>
+                    <label for="chinese">
+                        <input type="checkbox" value="Chinese" name="Chinese" id="chinese" checked/>Chinese
+                    </label><br>
+                    <label for="fast-food">
+                        <input type="checkbox" value="Fast Food" name="Fast Food" id="fast-food"/>Fast Food
+                    </label><br>
+                    <label for="street-food">
+                        <input type="checkbox" value="Street Food" name="Street Food" id="street-food"/>Street Food
+                    </label>
+                </div>
+                <div class="sub">Cost For Two</div>
+                <div class="checkbox_radio">
+                    <label for="lt500">
+                        <input type="radio" value="Less than ` 500" name="price range" id="lt500"/>Less than ` 500
+                    </label><br>
+                    <label for="500to100">
+                        <input type="radio" value="` 500 to ` 1000" name="price range" id="500to100"/>` 500 to ` 1000
+                    </label><br>
+                    <label for="1000to1500">
+                        <input type="radio" value="` 1000 to ` 1500" name="price range" id="1000to1500"/>` 1000 to ` 1500
+                    </label><br>
+                    <label for="1500to2000">
+                        <input type="radio" value="` 1500 to ` 2000" name="price range" id="1500to2000"/>` 1500 to ` 2000
+                    </label><br>
+                    <label for="2000+">
+                        <input type="radio" value="` 2000+" name="price range" id="2000+"/>` 2000+
+                    </label>
+                </div>
+                <div id="Sort">Sort</div>
+                <div class="checkbox_radio">
+                    <label for="lth">
+                        <input type="radio" value="Price low to high" name="sort" id="lth"/>Price low to high
+                    </label><br>
+                    <label for="htl">
+                        <input type="radio" value="Price high to low" name="sort" id="htl"/>Price high to low
+                    </label>
+                </div>
+            </article>
+            <article class="result1_article">
+                <img src="./img/meal.png" alt="meal1" class="meal_img">
+                <div class="content">
+                    <div class="rheading">The Big Chill Cakery</div>
+                    <div class="rsubheading">FORT</div>
+                    <div class="addr">Shop 1, Plot D, Samruddhi Complex, Chincholi …</div>
+                </div>
+                <hr class="h_line">
+                <div class="content">
+                    <div class="content_lower"> 
+                        CUISINES: <br>
+                        COST FOR TWO:
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="content_lower">
+                        Bakery <br>
+                        ₹700
+                    </div>
+                </div>
+            </article>
+            <article class="result2_article">
+                <img src="./img/meal.png" alt="meal1" class="meal_img">
+                <div class="content">
+                    <div class="rheading">The Bake Shop</div>
+                    <div class="rsubheading">FORT</div>
+                    <div class="addr">Shop 1, Plot D, Samruddhi Complex, Chincholi …</div>
+                </div>
+                <hr class="h_line">
+                <div class="content">
+                    <div class="content_lower"> 
+                        CUISINES: <br>
+                        COST FOR TWO:
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="content_lower">
+                        Bakery <br>
+                        ₹700
+                    </div>
+                </div>
+            </article>
+            <div class="pagination">
+                <a href="#" class="page_num">&lt;</a>
+                <a href="#" class="page_num" style="background: #8C96AB; color: #FFFFFF";>1</a>
+                <a href="#" class="page_num">2</a>
+                <a href="#" class="page_num">3</a>
+                <a href="#" class="page_num">4</a>
+                <a href="#" class="page_num">5</a>
+                <a href="#" class="page_num">&gt;</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
